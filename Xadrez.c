@@ -2,7 +2,7 @@
 
 int main(){
     /* Declarando variáveis */
-    int i = 0;
+    int i = 0, j = 0;
 
     /* Mostrando movimento da torre */
     printf("Movimentos da torre\n");
@@ -28,4 +28,17 @@ int main(){
         printf("Esquerda\n");
         i++;
     }while(i<8);
+
+    i = 0;
+
+    /* Mostrando movimento do cavalo */
+    printf("\n------------------------\n");
+    printf("Movimentos do cavalo\n");
+    do{
+        for(j=0;j<2;j++){
+            printf("Baixo\n");
+        }
+        printf("Esquerda\n");
+        i++;
+    }while(i<1);
 }
